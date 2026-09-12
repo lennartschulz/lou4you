@@ -34,10 +34,18 @@ const people = [
     },
     {
         name: "Julia Albrecht",
-        role: "Buchhaltung",
+        role: "Finanzen",
         email: "julia@lou4you.com",
         phone: "",
         imageUrl: "/team/person-03.jpeg",
+    },
+
+    {
+        name: "Hanna Weertz",
+        role: "Werkstudentin",
+        email: "hanna@lou4you.com",
+        phone: "",
+        imageUrl: "/team/person-07.png",
     },
 
   {
@@ -58,13 +66,7 @@ const people = [
 
 
 
-  {
-    name: "Hanna Weertz",
-    role: "Marketing",
-    email: "hanna@lou4you.com",
-    phone: "",
-    imageUrl: "/team/person-07.png",
-  },
+
 
 ];
 
@@ -244,7 +246,6 @@ export default function Home() {
         </div>
       </section>
         <section>
-            <p className="text-neutral-500 text-center py-1 text-xs font-bold ">Auswahl unserer Kunden</p>
             <div className="mx-auto opacity-50 grid grid-cols-6  max-w-7xl flex-col gap-8 px-6 py-12 sm:px-8 xl:px-0">
                 {logos.map((logo) => (
                     <img
@@ -260,6 +261,7 @@ export default function Home() {
 
 
             </div>
+            <p className="text-neutral-500 text-center py-1 text-xs font-bold ">Auswahl unserer Kunden</p>
         </section>
       <section id="team" aria-label="Unser Team" className="bg-white py-24 sm:py-40">
         <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3 xl:grid-rows-[auto_1fr] xl:gap-y-8">
