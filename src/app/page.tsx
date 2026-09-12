@@ -333,7 +333,7 @@ export default function Home() {
                   className="object-cover"
                 />
               </div>
-              <address className="flex min-w-0 flex-col gap-2 sm:gap-3 text-base sm:text-xl text-white font-medium sm:font-semibold not-italic sm:text-base">
+              <address className="flex min-w-0 flex-col gap-2 sm:gap-3 text-sm sm:text-xl text-white font-medium sm:font-semibold not-italic sm:text-base">
                 <div className="flex items-center gap-2">
                   <MapPin aria-hidden="true" className="size-4 sm:size-5 shrink-0" />
                   <span>Kamper Straße 54 in Moers</span>
