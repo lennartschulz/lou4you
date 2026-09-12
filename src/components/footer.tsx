@@ -4,7 +4,6 @@ const navigation = {
   main: [
     { name: "Impressum", href: "/impressum" },
     { name: "Datenschutz", href: "/datenschutz" },
-    { name: "info@lou4you.com", href: "mailto:info@lou4you.com" },
 
   ],
 };
