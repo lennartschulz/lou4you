@@ -261,7 +261,6 @@ export default function Home() {
 
 
             </div>
-            <p className="text-neutral-500 text-center py-1 text-xs font-bold ">Auswahl unserer Kunden</p>
         </section>
       <section id="team" aria-label="Unser Team" className="bg-white py-24 sm:py-40">
         <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3 xl:grid-rows-[auto_1fr] xl:gap-y-8">
