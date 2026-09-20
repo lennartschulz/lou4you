@@ -31,6 +31,7 @@ const people = [
         email: "yassmin@lou4you.com",
         phone: "0163 7895383",
         imageUrl: "/team/person-05.png",
+        objectPosition: "object-center",
     },
     {
         name: "Julia Albrecht",
@@ -54,6 +55,7 @@ const people = [
     email: "david@lou4you.com",
     phone: "",
     imageUrl: "/team/david.png",
+    objectPosition: "object-center",
   },
 
     {
@@ -288,7 +290,7 @@ export default function Home() {
                       src={person.imageUrl}
                       width={80}
                       height={80}
-                      className="size-14 sm:size-20 shrink-0 rounded-full object-cover object-top outline-1 -outline-offset-1 outline-black/5"
+                      className={`size-14 sm:size-20 shrink-0 rounded-full object-cover ${person.objectPosition ?? "object-top"} outline-1 -outline-offset-1 outline-black/5`}
                     />
                     <div className="min-w-0">
                       <div className="flex items-center gap-x-2">
